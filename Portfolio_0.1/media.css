@@ -1,0 +1,279 @@
+@media  screen and (max-width:507px) {
+    
+    #btn{
+        height: 2rem;
+    width: 4rem;
+    margin: 15px;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px 2px solid plum;
+    }
+    .certificates{
+        padding-top: 10px;
+        text-align: center;
+        height: 240px;
+        width: 100%;
+       
+    }
+
+}
+
+@media  screen and (max-width:820px) {
+   .left h1{
+    color: rgb(250, 214, 250);
+   }
+    h1 span{
+        display: none;
+    }
+    .education{
+        flex-direction: column;
+        
+    }
+    .jobdesc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-top: 10px;
+        height: 15rem;
+        width:90%;
+        font-size: 16px;
+        background-color: rgb(77, 75, 75);  
+        color: white;
+        border-radius: 6px;
+    }
+
+}
+
+@media  screen and (max-width:630px) {
+     h2{
+         display: none;
+    }
+ }
+
+@media  screen and (max-width:1500px) {
+    .right h2{
+        color: rgb(255, 255, 255);
+        padding-right: 5rem;
+    }
+ }
+ @media  screen and (max-width:880px) {
+    .about{
+        /* display: block; */
+        flex-direction: column;
+        height: 26rem;
+        color: rgb(134, 67, 197);
+        
+    }
+   
+ }
+ @media  screen and (max-width:820px) {
+
+    .jobdesc{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    height: 10rem;
+    width:90%;
+    font-size: 16px;
+    background-color: rgb(65, 64, 64);  
+    color: white;
+    border-radius: 5px;
+    }
+
+
+    .about {
+        margin: 35px;
+    }
+   .new{
+    display: flex;
+    font-size: 20px;
+   }
+   .about img{
+    height: 15px;
+   }
+   
+ }
+ @media  screen and (max-width:940px) {
+    .about{
+        height: 30rem;
+        color: rgb(134, 67, 197);     
+    }
+   .right h2{
+    font-size: 20px;
+   }
+ }
+ @media  screen and (max-width:700px) {
+   .right h2{
+    font-size: 15px;
+   }
+ }
+ @media  screen and (max-width:779px) {
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .jobdesc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        height: 14rem;
+        width:95%;
+        font-size: 16px;
+        background-color: rgb(65, 64, 64);  
+        color: white;
+        border-radius: 5px;
+    }
+  }
+ @media  screen and (max-width:620px) {
+    .jobdesc{
+        height: 15rem;
+        background-color: rgb(65, 64, 64);
+    }
+  }
+
+/* Phone width below 400px */
+
+  @media screen and (max-width:450px) {
+      
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .jobdesc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        height: 19rem;
+        width:96%;
+        font-size: 16px;
+        background-color: rgb(65, 64, 64);  
+        color: white;
+        border-radius: 5px;
+    }
+  }
+  @media  screen and (max-width:403px) {
+    
+    
+    .container{
+        width: 112.5%;
+    }
+    .jobdesc{
+        width: 97%;
+        /* margin-left: 28px; */
+        border-radius: 10px;
+
+    }
+    .skills{
+        margin-top: 60px;
+        margin-bottom: 10px;
+        height: 24rem;
+        width: 60%;
+        background-color: rgb(0, 0, 0);
+        border:1px solid #ffff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 5px rgb(247, 139, 247);
+    }
+  }  
+
+  @media screen and (max-width:404px){
+    .body{
+        overflow: hidden;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .education{
+        margin-left: 30px;
+        padding: 8px;
+        height: 26rem;
+    }
+    .role h1{
+        font-size: 36px;
+        margin-left: 2px;
+        padding: 3px;
+    }
+  }
+    
+  @media screen and (max-width:360px){
+    .body{
+        overflow: hidden;
+    }
+    .container{
+        max-width: 103%;
+    }
+    .education{
+        margin-left: 30px;
+        padding: 8px;
+        height: 26rem;
+    }
+    .text .jobdesc{
+        width: 100%;
+        margin-left: 2.6%;
+    }
+    .role h1{
+        font-size: 36px;
+        margin-left: 2px;
+        padding: 3px;
+    }
+
+    .works{
+        margin-top: 50px;
+        margin-bottom: 8px;
+        height: 18rem;
+        width: 80%;
+        background-color: rgb(0, 0, 0);
+        border:1px solid #ffff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 5px rgb(243, 155, 231);
+    }
+    .certificates{
+        padding-top: 10px;
+        text-align: center;
+        height: 300px;
+        width: 100%;
+       
+    }
+    .foot{
+        padding: 20px;
+        margin-top: 20px;
+        height: 20rem;
+    }
+
+    .about .image img{
+        margin: 2rem;
+        height: 15rem;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px 6px rgb(247, 125, 241);
+    
+    }
+    .about .image img:hover{
+        margin: 2rem;
+        height: 15.1rem;
+        border-radius:50%;
+        box-shadow: 0px 0px 30px 6px rgb(248, 0, 0);
+        transition: 0.1s ease-in-out;
+    
+    }
+    
+}
+  
+@media screen and (max-width:412px){
+    .others{
+        display: hidden;
+    }
+
+}

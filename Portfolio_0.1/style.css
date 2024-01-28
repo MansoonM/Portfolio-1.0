@@ -1,0 +1,338 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* Default CSS Code */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+    max-width: 100%;
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+
+/* -----------------------------Header||Container---------------------------------- */
+
+header .container{
+    height: 5.1rem;
+    display: flex;
+    background-color: rgb(46, 45, 45);
+    box-shadow: 0px 0px 12px 3px rgb(255, 0, 221);
+}
+/* Left img */
+header .left{
+   width: 50%;
+   display: flex;
+   align-items: center;
+}
+.left img{
+    margin-left: 1rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 0.1rem solid rgb(255, 255, 255);
+}
+.left img:hover{
+    margin-left: 1rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    transition: 0.2s ease;
+    border: 0.1rem solid rgb(255, 254, 254);
+    box-shadow: 1px 1.2px 10px 4px rgb(244, 0, 252);
+}
+.left h1{
+    color: white;
+    padding-left: 2.5rem;
+}
+.left h1:hover{
+    color: rgb(220, 134, 247);
+    font-size: 2.01rem;
+    transition: 0.2s ease-in-out;
+}
+
+header .right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2vh;
+   }
+   .right h2{
+    color: #ffff;
+    padding-right: 3rem;
+    font-size: 2rem;
+}
+
+.right h2:hover{
+    color: rgb(250, 190, 247);
+    transition: 0.3s ease-in-out;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    width: 5rem;
+    background-color: rgb(51, 46, 46);
+    border-radius: 5px;
+    font-size:18px;
+}
+#btn a{
+    text-decoration: none;
+}
+#btn:hover{
+    height: 2.35rem;
+    width: 5.10rem;
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px 3px rgb(255, 0, 0);
+}
+
+/* --------------------------------Section-------------------------------------- */
+
+/* Img and Role */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26rem;
+    color: rgb(134, 67, 197);
+    
+}
+.about .image img{
+    margin: 3rem;
+    height: 18rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 6px rgb(247, 125, 241);
+
+}
+.about .image img:hover{
+    margin: 3rem;
+    height: 18.1rem;
+    border-radius:50%;
+    box-shadow: 0px 0px 30px 6px rgb(255, 0, 0);
+    transition: 0.1s ease-in-out;
+
+}
+.about .role{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.role h1{
+    font-size: 38px;
+}
+span{
+    color: rgb(235, 190, 197);
+}
+
+
+.new{
+    display: none;
+    color: pink;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.jobdesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    height: 13rem;
+    width:95%;
+    font-size: 16px;
+    background-color: rgb(65, 64, 64);  
+    color: white;
+    border-radius: 5px;
+}
+#b{
+    font-size: 35px;
+    color: rgb(236, 187, 96);
+}
+p b{
+    color: orange;
+}
+
+
+#edu{
+    text-align: center;
+    margin:40px;
+    font-size: 3rem;
+    color: rgb(156, 154, 154);
+}
+/* Education */
+.education{
+    padding: 2px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    height: 17rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.education h1:hover{
+   color: plum;
+   font-size: 28px;
+   cursor: pointer;
+}
+/* Skills */
+
+.showme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects h1:hover{
+    color: rgb(190, 188, 190);
+}
+.certificates h1:hover{
+    color: rgb(190, 188, 190);
+}
+.skills{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    height: 20rem;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    border:1px solid #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgb(247, 139, 247);
+}
+.skills h1{
+    color: rgb(193, 108, 226);
+    padding-top: 10px;
+    font-size: 27px;
+}
+.skills h1:hover{
+    color: rgb(250, 95, 250);
+    cursor: pointer;
+}
+.skills ol{
+    text-align: center;
+    list-style: none;
+    padding: 3%;
+}
+
+.skills ol li{
+    padding: 3px;
+}
+.work{
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works{
+    margin-top: 50px;
+    margin-bottom: 8px;
+    height: 15rem;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    border:1px solid #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgb(243, 155, 231);
+}
+
+
+.works h1{
+    padding-top: 8px;
+    color: rgb(193, 108, 226);
+}
+.works h1:hover{
+    color: rgb(250, 95, 250);
+    cursor: pointer;
+}
+.works ol{
+    text-align: center;
+    list-style: none;
+    padding: 3%;
+}
+.works ol li{
+    padding: 10px;
+}
+hr{
+    margin-top: 50px;
+    max-width: 100%;
+}
+.project{
+    margin-top: 50px;
+    text-align: center;
+}
+.project h1{
+    margin: 20px;
+    font-size: 30px;
+    color:rgb(122, 119, 119) ;
+  
+}
+.project ul li{
+    padding: 10px;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.certificates{
+    padding-top: 10px;
+    text-align: center;
+    height: 170px;
+    width: 100%;
+   
+}
+.certificates h1{
+    color: rgb(136, 133, 133);
+    font-size: 30px;
+}
+.imgs{
+    margin-top: 30px;
+}
+a{
+    display: inline-flex;
+    padding: 10px;
+    flex-direction: column;
+    color: white;
+}
+a:hover{
+    color: pink;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------Footer------------------------------------------ */
+.foot{
+    margin-top: 30px;
+    height: 15rem;
+
+    justify-content: space-between;
+}
+.social img{
+    
+    width: 30px;
+}
+.social ul{
+    padding-top: 15px;
+}
+.social ul li{
+    list-style: none;
+}
+.others{
+    overflow:hidden ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+
