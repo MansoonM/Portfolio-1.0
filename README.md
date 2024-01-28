@@ -2,7 +2,7 @@
  👀 I’m interested in Web Development.
  🌱 I’m currently learning react.js
  💞️ I’m looking to collaborate on open source
- 📫 How to reach me "check bio"
+ 📫 This serves as a showcase of my skills, projects, and experiences in the field of web development. Designed with simplicity and elegance in mind, my portfolio website provides visitors with a glimpse into my professional journey, highlighting key projects, achievements, and interests. Skills: HTML,CSS Editor: VS CODE Developement: Web Developement || Frontend Developement
  😄 Pronouns: she/her
  ⚡ Fun fact: The world's first website was dedicated to the World Wide Web project itself and went live on August 6, 1991.
 
